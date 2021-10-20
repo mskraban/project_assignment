@@ -32,11 +32,11 @@ Provided instructions how to setup and run package on your computer.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Prepare empty DB table for data saving. I used MySQL with phpMyAdmin.
+
+1. Create database with name "project_assigment"
+2. Create table "order"
+3. Create columns: id (int), reciever (var), message (var), sender (var), membership (var)
 
 ### Installation
 
