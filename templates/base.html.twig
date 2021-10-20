@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.flaviar.com/build/images/favicon/favicon-32x32.7855b99c.png">
+        {% block stylesheet %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+    </head>
+    <body>
+
+    <nav>
+        <a href="https://www.flaviar.com/" title="Flaviar - Homepage"><img src="{{ asset('/assets/images/logotype.svg') }}" alt="Flaviar logo" class="logo"/></a>
+    </nav>
+
+    <section id="hero">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="offset-lg-5 offset-xl-6 col-12 col-md-12 col-lg-5 col-xl-6 position-relative">
+                    <div class="wrap"> <h1>This Father’s Day,<br> take him on a world tour of fine Spirits</h1>
+                        <p>“I won’t quit exploring fine Spirits (or skating) until I am physically unable. Flaviar will
+                            make you feel like a pro regardless of your experience.”<br>
+                            <b>— Tony Hawk</b></p>
+                        <a href="#" class="btn-cta">Create your unforgettable gift</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="featuredBrands">
+        <p class="featuredTitle">As featured in</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 center">
+                    <div class="links-wrap desktop">
+                        <a href="#" class="link"><img src="{{ asset('/assets/images/whisky_advocate_logo.png') }}"
+                                                      alt="Whisky Advocate"/></a>
+                        <a href="#" class="link"><img src="{{ asset('/assets/images/forbes_logo.png') }}"
+                                                      alt="Forbes"/></a>
+                        <a href="#" class="link"><img src="{{ asset('/assets/images/esquire_logo.png') }}"
+                                                      alt="Esquire"/></a>
+                        <a href="#" class="link"><img src="{{ asset('/assets/images/joe-rogan_logo.png') }}"
+                                                      alt="Joe Rogan"/></a>
+                        <a href="#" class="link"><img src="{{ asset('/assets/images/tasting_table_logo.png') }}"
+                                                      alt="Tasting table"/></a>
+                    </div>
+                    <div class="links-wrap mobile">
+                        <a href="#" class="link"><img src="{{ asset('/assets/images/forbes_logo.png') }}"
+                                                      alt="Forbes"/></a>
+                        <a href="#" class="link"><img src="{{ asset('/assets/images/joe-rogan_logo.png') }}"
+                                                      alt="Joe Rogan"/></a>
+                        <a href="#" class="link"><img src="{{ asset('/assets/images/whisky_advocate_logo.png') }}"
+                                                      alt="Whisky Advocate"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        {% block body %}{% endblock %}
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </body>
+</html>
