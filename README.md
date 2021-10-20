@@ -28,7 +28,7 @@ accompanying links with implemented backend functionality. Index page contains a
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Provided instructions how to setup and run package on your computer. I used xampp on windows, so I placed project to ```xampp/httdocs``` folder
+Provided instructions how to setup and run package on your computer. I used xampp on windows, so I placed project to ```xampp/htdocs``` folder
 
 ### Prerequisites
 
@@ -44,7 +44,7 @@ Prepare empty DB table for data saving. I used MySQL with phpMyAdmin.
 ### Installation
 
 1. Download Git repository
-2. Clone the repo
+2. Place it on your server directory (for me it was htdocs, since I use xampp)
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
