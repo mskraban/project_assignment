@@ -1,10 +1,5 @@
 # Flaviar - Symfony full stack assignment
 
-Project is providing "pixel perfect" mobile first design of the page, provided in
-accompanying links with implemented backend functionality. Index page contains a form that is coded with Vue. It takes values depending on user choises and validates them if they are filled out. Then it sends them to backend via XHR reqest. On backend we prepared endpoint /order where we decode json and store it in database.
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -60,20 +55,8 @@ accompanying links with implemented backend functionality. Index page contains a
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+Project is providing "pixel perfect" mobile first design of the page, provided in
+accompanying links with implemented backend functionality. Index page contains a form that is coded with Vue. It takes values depending on user choises and validates them if they are filled out. Then it sends them to backend via XHR reqest. On backend we prepared endpoint /order where we decode json and store it in database.
 
 
 
