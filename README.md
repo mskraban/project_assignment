@@ -23,15 +23,12 @@ accompanying links with implemented backend functionality. Index page contains a
 * [Bootstrap](https://getbootstrap.com)
 * [SCSS](https://sass-lang.com/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Provided instructions how to setup and run package on your computer.
 
 ### Prerequisites
 
