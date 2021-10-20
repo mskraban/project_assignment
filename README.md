@@ -45,7 +45,8 @@ Prepare empty DB table for data saving. I used MySQL with phpMyAdmin.
 
 1. Download Git repository
 2. Place it on your server directory (for me it was htdocs, since I use xampp)
-3. Install composer dependencies ```composer install```
+3. Install Composer dependencies ```composer install```
+4. Install Yarn dependecies ```yarn install```
 
 
 
