@@ -9,7 +9,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Assignment
 
 Project is providing "pixel perfect" mobile first design of the page, provided in
 accompanying links with implemented backend functionality. Index page contains a form that is coded with Vue. It takes values depending on user choises and validates them if they are filled out. Then it sends them to backend via XHR reqest. On backend we prepared endpoint /order where we decode json and store it in database.
