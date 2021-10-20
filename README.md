@@ -49,7 +49,7 @@ Prepare empty DB table for data saving. I used MySQL with phpMyAdmin.
 4. Install Yarn dependecies ```yarn install```
 5. Start server ```symfony server:start```
 6. Create database ```php bin/console doctrine:database:create```
-7. Prepare table ```php bin/console make:migration```
+7. Prepare table ```php bin/console doctrine:migrations:migrate```
 
 
 
