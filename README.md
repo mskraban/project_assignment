@@ -28,7 +28,7 @@ accompanying links with implemented backend functionality. Index page contains a
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Provided instructions how to setup and run package on your computer.
+Provided instructions how to setup and run package on your computer. I used xampp on windows, so I placed project to ```xampp/httdocs``` folder
 
 ### Prerequisites
 
@@ -43,7 +43,7 @@ Prepare empty DB table for data saving. I used MySQL with phpMyAdmin.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Download Git repository
 2. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
