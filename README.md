@@ -9,14 +9,14 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Assignment
+## 📝 About The Assignment
 
 Project is providing "pixel perfect" mobile first design of the page, provided in
 accompanying links with implemented backend functionality. Index page contains a form that is coded with Vue. It takes values depending on user choises and validates them if they are filled out. Then it sends them to backend via XHR reqest. On backend we prepared endpoint /order where we decode json and store it in database.
 
 
 
-### Built With
+### 🧰 Built With
 
 * [Vue.js](https://vuejs.org/)
 * [Symfony](https://symfony.com/)
@@ -26,7 +26,7 @@ accompanying links with implemented backend functionality. Index page contains a
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## 📚 Getting Started
 
 Provided instructions how to setup and run package on your computer. I used xampp on windows, so I placed project to ```xampp/htdocs``` folder
 
@@ -35,7 +35,7 @@ Provided instructions how to setup and run package on your computer. I used xamp
 To start using the project, you need to have installed composer and yarn package manager.
 
 
-### Installation
+### ☑️ Installation
 
 1. Download Git repository
 2. Place it on your server directory (for me it was htdocs, since I use xampp)
@@ -48,7 +48,7 @@ To start using the project, you need to have installed composer and yarn package
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## 🖱️ Usage
 
 User have to select between two membership packages and. Depending on user pick, price at the bottom of form is recalculated. 
 User can pick between two send to options. If user selects "Send to me" then there are displayed only message and from input fields. If user selects "Send to them", then input field "to their name" is added. 
@@ -56,7 +56,7 @@ User can pick between two send to options. If user selects "Send to me" then the
 
 
 <!-- Notes -->
-## Notes
+## ❗ Notes
 
 - Half a year gift membership is always calculated into price.
 - Parallax on form section background image is enabled and it scales image in both X and Y directions.
