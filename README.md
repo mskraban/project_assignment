@@ -30,7 +30,7 @@ accompanying links with implemented backend functionality. Index page contains a
 
 Provided instructions how to setup and run package on your computer. I used xampp on windows, so I placed project to ```xampp/htdocs``` folder
 
-### Prerequisites
+### ℹ️ Prerequisites
 
 To start using the project, you need to have installed composer and yarn package manager.
 
