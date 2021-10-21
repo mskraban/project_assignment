@@ -32,13 +32,7 @@ Provided instructions how to setup and run package on your computer. I used xamp
 
 ### Prerequisites
 
-Prepare empty DB table for data saving. I used MySQL with phpMyAdmin.
-
-1. Create database with name "project_assigment"
-2. Create table "order"
-3. Create columns: id (int), reciever (varchar), message (varchar), sender (varchar), membership (varchar), sender_select (varchar)
- <img src="https://i.imgur.com/hf1xp3M.jpg" alt="Database">
-
+To start using the project, you need to have installed composer and yarn package manager.
 
 
 ### Installation
