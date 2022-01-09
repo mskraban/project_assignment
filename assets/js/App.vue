@@ -22,7 +22,7 @@
             <div class="col-12 px-0 px-md-3 col-md-6">
               <div :class="{'active': membership === '2'}" @click="membership = '2'"
                    class="box-wrap">
-                <div class="title">2 year</div>
+                <div class="title">1 year</div>
                 <hr>
                 <div class="price">$350</div>
                 <div class="discount">Save $30</div>
